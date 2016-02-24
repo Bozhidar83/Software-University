@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration for webinar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <h2>Регистрация за уебинар</h2>
+        <form action="">
+            <label for="" class="mandatory" id="name-surename">Име и фамилия:</label>
+            <input type="text">
+            <label for="address">Адрес:</label>
+            <input type="text" name="address" id="address">
+            <label for="">Населено място:</label>
+            <input type="text">
+            <label for="">Пощенски код:</label>
+            <input type="text">
+            <label for="" class="mandatory" id="email-label">Email:</label>
+            <input type="email">
+            <label for="" class="mandatory" id="phone-label">Телефон:</label>
+            <input type="text">
+            <label for="" class="mandatory" id="date-label">Дата на семинара:</label>
+            <input type="date">
+            <input type="checkbox" id="invoice-checkbox">
+            <label for="">Желая фактура</label>
+            <div id="invoice">
+                <label for="" class="mandatory" id="organization-label">Фирма/Организация:</label>
+                <input type="text">
+                <label for="" class="mandatory" id="mol-label">МОЛ:</label>
+                <input type="text">
+                <label for="" class="mandatory" id="eik-label">ЕИК:</label>
+                <input type="text">
+                <label for="" class="mandatory" id="dds-label">ИН по ДДС:</label>
+                <input type="text">
+                <label for="" class="mandatory" id="address-label">Адрес:</label>
+                <input type="text">
+            </div>
+            <input type="button" id="register" value="Регистрирай се">
+            <input type="button" id="reset" value="Изчисти">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
