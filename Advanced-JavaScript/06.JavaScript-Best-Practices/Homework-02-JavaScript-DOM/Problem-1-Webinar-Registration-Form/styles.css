@@ -1,0 +1,100 @@
+body {
+    background-color: antiquewhite;
+}
+
+#wrapper {
+    width: 25%;
+    margin: auto;
+}
+
+input {
+    width: 78%;
+}
+
+input, label {
+    display: block;
+}
+h2 {
+    font-size: 26px;
+}
+
+label {
+    font-size: 1.2em;
+}
+
+.mandatory {
+    background-image: url("star-sign.png");
+    background-repeat: no-repeat;
+}
+
+#name-surename {
+    background-position: 135px;
+    background-position-y: 4px;
+}
+
+#email-label {
+    background-position: 55px;
+    background-position-y: 4px;
+}
+
+#phone-label {
+    background-position: 80px;
+    background-position-y: 4px;
+}
+
+#date-label {
+    background-position: 150px;
+    background-position-y: 4px;
+}
+
+#organization-label {
+    background-position: 175px;
+    background-position-y: 4px;
+}
+
+#mol-label {
+    background-position: 50px;
+    background-position-y: 4px;
+}
+
+#eik-label {
+    background-position: 45px;
+    background-position-y: 4px;
+}
+
+#dds-label {
+    background-position: 105px;
+    background-position-y: 4px;
+}
+
+#address-label {
+    background-position: 60px;
+    background-position-y: 4px;
+}
+
+input[type=checkbox] {
+    float: left;
+    width: 5%;
+}
+
+input[type=button] {
+    display: inline;
+    font-size: 16px;
+}
+
+#register {
+    width: 50%;
+}
+
+#reset {
+    width: 30%;
+}
+
+.mandatory {
+
+    background-image: url("star-sign.png");
+}
+
+#invoice {
+    visibility: hidden;
+}

@@ -1,0 +1,27 @@
+div, section, form, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background: lightblue;
+}
+
+#wrapper section form input, #wrapper section form div {
+    width: 100%;
+}
+
+#wrapper section form button {
+    width: 45%;
+    height: 40px;
+}
+
+#wrapper section form input, #wrapper section form div, #wrapper section form button {
+    height: 40px;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 24px;
+}
