@@ -1,0 +1,56 @@
+#carousel-container {
+    width: 51%;
+    margin: 0 auto;
+}
+
+#carousel-inner {
+    float:left;
+    width:606px;
+    overflow: hidden;
+    background: #F0F0F0;
+    height: 232px;
+}
+
+#carousel-ul {
+    position:relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 10px 0;
+    width: 9999px;
+}
+
+#carousel-ul li{
+    float: left;
+    width:606px;
+    padding:0;
+    height:100%;
+    background: #000000;
+}
+
+#carousel-ul li img {
+    cursor: pointer;
+    border:0;
+}
+
+#left-scroll, #right-scroll{
+    float:left;
+    height:232px;
+    width:30px;
+}
+
+#left-scroll {
+    margin-right: 10px;
+}
+
+#left-scroll img, #right-scroll img{
+    border:0;
+    margin-top: 90px;
+}
+
+#left-scroll img {
+    margin-right: 10px;
+}
+
+#right-scroll img {
+    margin-left: 10px;
+}

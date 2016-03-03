@@ -1,0 +1,22 @@
+#wrapper {
+    width: 32%;
+    margin: 0 auto;
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #1fe50e;
+    text-align: center;
+}
+
+td {
+    padding: 0 0 0 10px;
+}
+
+table thead tr th {
+    padding: 0 40px 0 40px;
+}
