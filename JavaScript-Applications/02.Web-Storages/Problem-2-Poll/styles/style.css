@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+}
+
+#clock-div{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clock-div > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #b6bfbb;
+    display: inline-block;
+}
+
+#clock-div div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #1fe50e;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+h5 {
+    margin-bottom: 0;
+}
+
+.correct-message {
+    color: #1fe50e;
+}
+
+.incorrect-message {
+    color: red;
+}

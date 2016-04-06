@@ -1,0 +1,24 @@
+a {
+    text-decoration: none;
+    font-size: 26px;
+    color: #0d3349;
+    display: block;
+    width: 100%;
+}
+
+a:active {
+    color: #0d3349;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    border: 1px solid blue;
+    width: 100px;
+}
+
+ul li:hover {
+    background-color: #D2E0E6;
+}

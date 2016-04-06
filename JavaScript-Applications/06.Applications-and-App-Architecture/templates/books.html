@@ -1,0 +1,34 @@
+<h2>Book's page</h2>
+<div id="books-container">
+    <div class="books-list">
+        <div class="books-header">
+            <div>Title</div>
+            <div>Author</div>
+            <div>ISBN</div>
+            <div>Delete book</div>
+            <div>Edit book</div>
+        </div>
+        {{#books}}
+        <div id="{{bookId}}" class="books-row">
+            <div>{{title}}</div>
+            <div>{{author}}</div>
+            <div>
+                {{#isbn}}
+                    {{isbn}}
+                {{/isbn}}
+                {{^isbn}}N/A{{/isbn}}
+            </div>
+            <div>
+                <button class="b-delete">Delete</button>
+            </div>
+            <div>
+                <button class="b-edit">Edit</button>
+            </div>
+        </div>
+        {{/books}}
+    </div>
+    <button id="add-book" type="button">Add Book</button>
+    <br>
+    <br>
+    <button id="logout" type="button">Logout</button>
+</div>

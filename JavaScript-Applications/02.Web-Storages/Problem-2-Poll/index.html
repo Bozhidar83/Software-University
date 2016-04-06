@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Poll</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="libs/jquery.js"></script>
+</head>
+<body>
+<h1>Poll Page</h1>
+<h3>Time left:</h3>
+<div id="clock-div">
+    <div>
+        <span class="minutes"></span>
+        <div class="smalltext">Minutes</div>
+    </div>
+    <div>
+        <span class="seconds"></span>
+        <div class="smalltext">Seconds</div>
+    </div>
+</div>
+<div>
+    <h3>Questions:</h3>
+    <div id="first-question">
+        <h5>Should Nakov drink tonight?</h5>
+        <input type="radio" name="first-question" id="first-question-yes">
+        <label for="first-question-yes">Yes</label>
+        <br />
+        <input type="radio" name="first-question" id="first-question-no">
+        <label for="first-question-no">No</label>
+        <br />
+        <input type="radio" name="first-question" id="first-question-maybe">
+        <label for="first-question-maybe">May be</label>
+        <br />
+        <input type="radio" name="first-question" id="first-question-it-depends">
+        <label for="first-question-it-depends">It depends</label>
+    </div>
+    <div id="second-question">
+        <h5>Should SoftUni rise new hall 'Deep Underground Code', which is directly connected with metro station?</h5>
+        <input type="radio" name="second-question" id="second-question-yes">
+        <label for="second-question-yes">Yes</label>
+        <br />
+        <input type="radio" name="second-question" id="second-question-no">
+        <label for="second-question-no">No</label>
+        <br />
+        <input type="radio" name="second-question" id="second-question-maybe">
+        <label for="second-question-maybe">May be</label>
+        <br />
+        <input type="radio" name="second-question" id="second-question-it-depends">
+        <label for="second-question-it-depends">It depends</label>
+    </div>
+    <div id="third-question">
+        <h5>Should SoftUni organise party after every exam?</h5>
+        <input type="radio" name="third-question" id="third-question-yes">
+        <label for="third-question-yes">Yes</label>
+        <br />
+        <input type="radio" name="third-question" id="third-question-no">
+        <label for="third-question-no">No</label>
+        <br />
+        <input type="radio" name="third-question" id="third-question-maybe">
+        <label for="third-question-maybe">May be</label>
+        <br />
+        <input type="radio" name="third-question" id="third-question-it-depends">
+        <label for="third-question-it-depends">It depends</label>
+    </div>
+    <br />
+    <input type="submit" value="Submit" id="submit">
+    <br />
+    <div id="poll-results">
+        <h2>Your answers have been submitted successfully!</h2>
+        <h5>1. Should Nakov drink tonight?</h5>
+        <p id="first-question-answer"></p>
+        <h5>2. Should SoftUni rise new hall 'Deep Underground Code', which is directly connected with metro station?</h5>
+        <p id="second-question-answer"></p>
+        <h5>3. Should SoftUni organise party after every exam?</h5>
+        <p id="third-question-answer"></p>
+    </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>

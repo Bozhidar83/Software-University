@@ -1,0 +1,92 @@
+.books-header div, .books-row div {
+    display: inline-block;
+    border: 1px solid black;
+    width: 250px;
+}
+
+.message.success{
+    color: green;
+}
+.message.error{
+    color: red;
+}
+.message.error, .message.success{
+    display: none;
+}
+
+.student-item strong:before{
+    content: 'Name: ';
+}
+
+.student-item span:before{
+    content: ', Author: ';
+}
+
+#books-container {
+    margin-top: 20px;
+}
+
+#books-container input {
+    width: 96px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+input#b-title {
+    margin-left: 7px;
+}
+
+input#b-isbn {
+    margin-left: 9px;
+}
+
+button#btn-add-book {
+    margin-left: 128px;
+}
+
+div.books-list div div:nth-child(4) {
+    width: 85px;
+    text-align: center;
+}
+
+div.books-list div div:nth-child(4) button, div.books-list div div:nth-child(5) button {
+    width: 99%;
+}
+
+div.books-list div div:nth-child(5) {
+    width: 65px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#register-template, #login-template {
+    margin: 0 auto;
+    width: 250px;
+    padding: 25px;
+    border: 1px solid chocolate;
+    border-radius: 10px;
+    background-color: darkorchid;
+    text-align: center;
+}
+
+#login-template {
+    background-color: chartreuse;
+}
+
+#register-template input, #login-template input {
+    width: 245px;
+    margin-bottom: 10px;
+}
+
+#register-template button {
+    width: 100px;
+}
+
+h2 {
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+#wrapper > div {
+    border: 1px solid #999;
+}
+
+#countries > div, #towns > div {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+#countries > div div, #towns > div div {
+    margin: 0 0 10px 0;
+}
+
+#towns-wrapper {
+    visibility: hidden;
+}
+

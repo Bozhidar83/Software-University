@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Countries</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="libs/jquery.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Countries Project</h1>
+    </header>
+    <div id="wrapper">
+        <h2>Countries: </h2>
+        <div id="countries"></div>
+        <div id="add-country-wrapper"></div>
+        <h3>Add country:</h3>
+        <input type="text" id="add-country-name" placeholder="Country name ..."/>
+        <button id="add-country-btn">Add country</button>
+        <h3 id="towns-header">Towns: </h3>
+        <div id="towns-wrapper">
+            <div id="towns"></div>
+            <div id="add-town-wrapper"></div>
+        </div>
+    </div>
+    <script src="js/requester.js"></script>
+    <script src="js/data-persister.js"></script>
+    <script src="js/controller.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

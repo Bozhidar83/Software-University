@@ -1,0 +1,23 @@
+#wrapper {
+    margin: 0 auto;
+    width: 30%;
+}
+
+table, tr, th, td {
+    border: 2px solid slategray;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    font-size: 22px;
+    font-family: Arial;
+}
+
+th {
+    background-color: #cccccc;
+}
+
+tr:nth-child(odd) {
+    background-color: #E8E8E8;
+}
